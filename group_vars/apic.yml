@@ -8,9 +8,9 @@ int_profile_name:
 - Leaf-102
 
 port_selector:
-- { profile: "Leaf-101", selector: "Web-Server", interface: "1/1", polgro: "CDP_ON" }
-- { profile: "Leaf-101", selector: "DB-Server", interface: "1/2", polgro: "CDP_ON" }
-- { profile: "Leaf-102", selector: "App-Server", interface: "1/1", polgro: "CDP_ON" }
+- { profile: "Leaf-101", selector: "Web-Server", interface: "1", polgro: "CDP_ON" }
+- { profile: "Leaf-101", selector: "DB-Server", interface: "2", polgro: "CDP_ON" }
+- { profile: "Leaf-102", selector: "App-Server", interface: "1", polgro: "CDP_ON" }
 
 
 leaf_profile_name:
