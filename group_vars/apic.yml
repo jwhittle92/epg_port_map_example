@@ -23,7 +23,6 @@ leaf_profile:
 
 leaf_int_profile:
 - { leaf: "Leaf-101", int_profile: "Leaf-101"}
-- { leaf: "Leaf-101", int_profile: "Leaf-101"}
 - { leaf: "Leaf-102", int_profile: "Leaf-102"}
 
 epg_domain:
