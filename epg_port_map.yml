@@ -54,7 +54,7 @@
     cisco.aci.aci_interface_selector_to_switch_policy_leaf_profile:
       <<: *login
       leaf_profile: "{{ item.leaf }}"
-      interface_selector: "{{ item.selector }}"
+      interface_selector: "{{ item.int_profile }}"
     loop:
       "{{ leaf_int_profile }}"
 

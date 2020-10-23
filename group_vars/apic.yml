@@ -22,9 +22,9 @@ leaf_profile:
 - { leaf: "Leaf-102", leaf_id: "102" }
 
 leaf_int_profile:
-- { leaf: "Leaf-101", selector: "Web-Server"}
-- { leaf: "Leaf-101", selector: "App-Server"}
-- { leaf: "Leaf-102", selector: "DB-Server"}
+- { leaf: "Leaf-101", int_profile: "Leaf-101"}
+- { leaf: "Leaf-101", int_profile: "Leaf-101"}
+- { leaf: "Leaf-102", int_profile: "Leaf-102"}
 
 epg_domain:
 - { epg: "Web", domain: "Servers" }
