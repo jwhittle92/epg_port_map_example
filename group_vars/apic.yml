@@ -2,7 +2,7 @@ tenant: Student_Tenant
 app_profile: web_app
 pod: 1
 
-int_pol_group:
+int_policy_group:
 - { name: "vpc_a", lag_type: node }
 - { name: "vpc_b", lag_type: node }
 - { name: "po_a", lag_type: link }
