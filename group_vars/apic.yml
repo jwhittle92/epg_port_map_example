@@ -2,15 +2,19 @@ tenant: Student_Tenant
 app_profile: web_app
 pod: 1
 
+int_pol_group:
+- { name: "vpc_a", lag_type: node }
+- { name: "vpc_b", lag_type: node }
+- { name: "po_a", lag_type: link }
 
 int_profile_name:
 - Leaf-101
 - Leaf-102
 
 port_selector:
-- { profile: "Leaf-101", selector: "Web-Server", interface: "1", polgro: "CDP_ON" }
-- { profile: "Leaf-101", selector: "DB-Server", interface: "2", polgro: "CDP_ON" }
-- { profile: "Leaf-102", selector: "App-Server", interface: "1", polgro: "CDP_ON" }
+- { profile: "Leaf-101", selector: "Web-Server", interface: "1", polgro: "vpc_a" }
+- { profile: "Leaf-101", selector: "DB-Server", interface: "2", polgro: "po_a" }
+- { profile: "Leaf-102", selector: "App-Server", interface: "1", polgro: "vpc_b" }
 
 
 leaf_profile_name:

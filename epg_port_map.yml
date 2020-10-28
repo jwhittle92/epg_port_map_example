@@ -13,6 +13,16 @@
 
   tasks:
 
+  - name: Create VPC interface policy
+    cisco.aci.aci_interface_policy_leaf_policy_group:
+      <<: *login
+      cdp_policy: cdp_on
+      aep: dc2-aep
+      lag_type: "{{ item.lag }}"
+      name: "{{ item.name }}"
+    loop:
+      "{{ int_policy_group }}"
+
   - name: Create interface profile
     cisco.aci.aci_interface_policy_leaf_profile:
       <<: *login
