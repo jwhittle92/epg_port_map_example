@@ -50,7 +50,7 @@ leaf_profile_name:
 leaf_profile:
 - { leaf: "L135-136", leaf_id_first: "135", leaf_id_last: "136" }
 - { leaf: "L135", leaf_id_first: "135", leaf_id_last: "135"}
-- { leaf: "L135", leaf_id_first: "136", leaf_id_last: "136"}
+- { leaf: "L136", leaf_id_first: "136", leaf_id_last: "136"}
 
 
 leaf_int_profile:
