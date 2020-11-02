@@ -102,7 +102,6 @@
       interface_mode: "{{ item.int_mode }}"
       interface_type: "{{ item.int_type }}"
       pod_id: "{{ pod }}"
-      leafs: "{{ item.leaf }}"
-      interface: "{{ item.interface }}"
+      interface: "{{ item.polgro }}"
     loop:
       "{{ epg_ports }}"
