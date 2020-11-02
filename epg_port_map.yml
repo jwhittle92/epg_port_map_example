@@ -38,6 +38,15 @@
       <<: *login
       interface_profile: "{{ item.profile }}"
       access_port_selector: "{{ item.selector }}"
+      policy_group: "{{ item.polgro }}"
+    loop:
+      "{{ int_profile }}"
+
+  - name: Associate an Interface Access Port Selector to an Interface Policy Leaf Profile with a Policy Group
+    cisco.aci.aci_access_port_block_to_access_port:
+      <<: *login
+      interface_profile: "{{ item.profile }}"
+      access_port_selector: "{{ item.selector }}"
       port_blk: "{{ item.interface }}"
       from_port: "{{ item.interface }}"
       to_port: "{{ item.interface }}"

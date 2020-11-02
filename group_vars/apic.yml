@@ -25,22 +25,40 @@ int_profile_name:
 - L136
 - L135-136
 
+
+int_profile:
+- { profile: "L135-136", selector: "sel-vPC-IDM-IPADPHPC01", polgro: "vPC-IDM-IPADPHPC01" }
+- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-A", polgro: "vPC-IDM-IPAPPHPC01-A" }
+- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-1", polgro: "vPC-IDM-IPAPPHPC01-1" }
+- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-2", polgro: "vPC-IDM-IPAPPHPC01-2" }
+- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-3", polgro: "vPC-IDM-IPAPPHPC01-3" }
+- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-4", polgro: "vPC-IDM-IPAPPHPC01-4" }
+- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-5", polgro: "vPC-IDM-IPAPPHPC01-5" }
+- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-6", polgro: "vPC-IDM-IPAPPHPC01-6" }
+- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-7", polgro: "vPC-IDM-IPAPPHPC01-7" }
+- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-8", polgro: "vPC-IDM-IPAPPHPC01-8" }
+- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-9", polgro: "vPC-IDM-IPAPPHPC01-9" }
+- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-10", polgro: "vPC-IDM-IPAPPHPC01-10" }
+- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-11", polgro: "vPC-IDM-IPAPPHPC01-11" }
+- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-12", polgro: "vPC-IDM-IPAPPHPC01-12" }
+- { profile: "L135-136", selector: "sel-vPC-IDM-IDMPPDBS01-A", polgro: "vPC-IDM-IDMPPDBS01-A" }
+
 port_selector:
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPADPHPC01", interface: "1", polgro: "vPC-IDM-IPADPHPC01" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-A", interface: "2", polgro: "vPC-IDM-IPAPPHPC01-A" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-1", interface: "3", polgro: "vPC-IDM-IPAPPHPC01-1" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-2", interface: "4", polgro: "vPC-IDM-IPAPPHPC01-2" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-3", interface: "5", polgro: "vPC-IDM-IPAPPHPC01-3" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-4", interface: "6", polgro: "vPC-IDM-IPAPPHPC01-4" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-5", interface: "7", polgro: "vPC-IDM-IPAPPHPC01-5" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-6", interface: "8", polgro: "vPC-IDM-IPAPPHPC01-6" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-7", interface: "9", polgro: "vPC-IDM-IPAPPHPC01-7" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-8", interface: "10", polgro: "vPC-IDM-IPAPPHPC01-8" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-9", interface: "11", polgro: "vPC-IDM-IPAPPHPC01-9" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-10", interface: "12", polgro: "vPC-IDM-IPAPPHPC01-10" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-11", interface: "13", polgro: "vPC-IDM-IPAPPHPC01-11" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-12", interface: "14", polgro: "vPC-IDM-IPAPPHPC01-12" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IDMPPDBS01-A", interface: "15", polgro: "vPC-IDM-IDMPPDBS01-A" }
+- { profile: "L135-136", selector: "sel-vPC-IDM-IPADPHPC01", interface: "1" }
+- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-A", interface: "2" }
+- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-1", interface: "3" }
+- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-2", interface: "4" }
+- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-3", interface: "5" }
+- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-4", interface: "6" }
+- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-5", interface: "7" }
+- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-6", interface: "8" }
+- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-7", interface: "9" }
+- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-8", interface: "10" }
+- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-9", interface: "11" }
+- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-10", interface: "12" }
+- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-11", interface: "13" }
+- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-12", interface: "14" }
+- { profile: "L135-136", selector: "sel-vPC-IDM-IDMPPDBS01-A", interface: "15" }
 
 leaf_profile_name:
 - L135
