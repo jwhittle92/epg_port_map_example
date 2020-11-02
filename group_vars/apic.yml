@@ -27,38 +27,21 @@ int_profile_name:
 
 
 int_profile:
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPADPHPC01", polgro: "vPC-IDM-IPADPHPC01", interface: "1" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-A", polgro: "vPC-IDM-IPAPPHPC01-A", interface: "2" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-1", polgro: "vPC-IDM-IPAPPHPC01-1", interface: "3" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-2", polgro: "vPC-IDM-IPAPPHPC01-2", interface: "4" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-3", polgro: "vPC-IDM-IPAPPHPC01-3", interface: "5" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-4", polgro: "vPC-IDM-IPAPPHPC01-4", interface: "6" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-5", polgro: "vPC-IDM-IPAPPHPC01-5", interface: "7" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-6", polgro: "vPC-IDM-IPAPPHPC01-6", interface: "8" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-7", polgro: "vPC-IDM-IPAPPHPC01-7", interface: "9" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-8", polgro: "vPC-IDM-IPAPPHPC01-8", interface: "10" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-9", polgro: "vPC-IDM-IPAPPHPC01-9", interface: "11" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-10", polgro: "vPC-IDM-IPAPPHPC01-10", interface: "12" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-11", polgro: "vPC-IDM-IPAPPHPC01-11", interface: "13" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-12", polgro: "vPC-IDM-IPAPPHPC01-12", interface: "14" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IDMPPDBS01-A", polgro: "vPC-IDM-IDMPPDBS01-A", interface: "15" }
-
-port_selector:
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPADPHPC01", interface: "1" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-A", interface: "2" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-1", interface: "3" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-2", interface: "4" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-3", interface: "5" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-4", interface: "6" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-5", interface: "7" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-6", interface: "8" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-7", interface: "9" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-8", interface: "10" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-9", interface: "11" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-10", interface: "12" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-11", interface: "13" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IPAPPHPC01-12", interface: "14" }
-- { profile: "L135-136", selector: "sel-vPC-IDM-IDMPPDBS01-A", interface: "15" }
+- { profile: "L135-136", selector: "vPC-IDM-IPADPHPC01", polgro: "vPC-IDM-IPADPHPC01", interface: "1" }
+- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-A", polgro: "vPC-IDM-IPAPPHPC01-A", interface: "2" }
+- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-1", polgro: "vPC-IDM-IPAPPHPC01-1", interface: "3" }
+- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-2", polgro: "vPC-IDM-IPAPPHPC01-2", interface: "4" }
+- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-3", polgro: "vPC-IDM-IPAPPHPC01-3", interface: "5" }
+- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-4", polgro: "vPC-IDM-IPAPPHPC01-4", interface: "6" }
+- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-5", polgro: "vPC-IDM-IPAPPHPC01-5", interface: "7" }
+- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-6", polgro: "vPC-IDM-IPAPPHPC01-6", interface: "8" }
+- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-7", polgro: "vPC-IDM-IPAPPHPC01-7", interface: "9" }
+- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-8", polgro: "vPC-IDM-IPAPPHPC01-8", interface: "10" }
+- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-9", polgro: "vPC-IDM-IPAPPHPC01-9", interface: "11" }
+- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-10", polgro: "vPC-IDM-IPAPPHPC01-10", interface: "12" }
+- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-11", polgro: "vPC-IDM-IPAPPHPC01-11", interface: "13" }
+- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-12", polgro: "vPC-IDM-IPAPPHPC01-12", interface: "14" }
+- { profile: "L135-136", selector: "vPC-IDM-IDMPPDBS01-A", polgro: "vPC-IDM-IDMPPDBS01-A", interface: "15" }
 
 leaf_profile_name:
 - L135
@@ -87,8 +70,19 @@ epg_domain:
   - { epg: "IDM_VL1915_DEV_VM", domain: "BMGF-PHYS" }
   - { epg: "IDM_VL1802_VMN_WORKSTATION", domain: "BMGF-PHYS" }
 
-#epg_ports:
-#- { epg: "IDM_VL1901_DEV", vlan: "1901", int_mode: "native", int_type: "vpc", leaf: "135-136", interface: "1/1" }
-#- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", leaf: "135-136", interface: "1/2" }
-#- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", leaf: "135-136", interface: "1/3" }
-#
+epg_ports:
+- { epg: "IDM_VL1901_DEV", vlan: "1901", int_mode: "native", int_type: "vpc", leaf: "135-136", interface: "1/1" }
+- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", leaf: "135-136", interface: "1/2" }
+- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", leaf: "135-136", interface: "1/3" }
+- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", leaf: "135-136", interface: "1/4" }
+- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", leaf: "135-136", interface: "1/5" }
+- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", leaf: "135-136", interface: "1/6" }
+- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", leaf: "135-136", interface: "1/7" }
+- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", leaf: "135-136", interface: "1/8" }
+- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", leaf: "135-136", interface: "1/9" }
+- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", leaf: "135-136", interface: "1/10" }
+- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", leaf: "135-136", interface: "1/11" }
+- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", leaf: "135-136", interface: "1/12" }
+- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", leaf: "135-136", interface: "1/13" }
+- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", leaf: "135-136", interface: "1/14" }
+- { epg: "IDM_VL1810_VMN_CORP_DATA", vlan: "1810", int_mode: "trunk", int_type: "vpc", leaf: "135-136", interface: "1/15" }
