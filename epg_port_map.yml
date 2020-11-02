@@ -16,10 +16,13 @@
   - name: Create VPC interface policy
     cisco.aci.aci_interface_policy_leaf_policy_group:
       <<: *login
-      cdp_policy: cdp_on
-      aep: dc2-aep
+      aep: "{{ item.aep }}"
       lag_type: "{{ item.lag_type }}"
       name: "{{ item.name }}"
+      cdp_policy: "{{ item.cdp }}"
+      lldp_policy: "{{ item.lldp }}"
+      mcp_policy: "{{ item.mcp }}"
+      port_channel_policy: "{{ item.po }}"
     loop:
       "{{ int_policy_group }}"
 

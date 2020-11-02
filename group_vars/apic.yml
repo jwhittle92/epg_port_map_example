@@ -1,40 +1,51 @@
-tenant: Student_Tenant
-app_profile: web_app
+tenant: BMGF
+app_profile: IDM
 pod: 1
 
 int_policy_group:
-- { name: "vpc_a", lag_type: node }
-- { name: "vpc_b", lag_type: node }
-- { name: "po_a", lag_type: link }
+- { name: "vPC-IDM-IPADPHPC01", lag_type: "node", aep: "BMGF-AEP", cdp: "CDP-On", mcp: "MCP-On", lldp: "LLDP-On", po: "LACP-Active" }
+- { name: "vPC-IDM-IPAPPHPC01-A", lag_type: "node", aep: "BMGF-AEP", cdp: "CDP-On", mcp: "MCP-On", lldp: "LLDP-On", po: "LACP-Active" }
+- { name: "vPC-IDM-IPAPPHPC01-1", lag_type: "node", aep: "BMGF-AEP", cdp: "CDP-On", mcp: "MCP-On", lldp: "LLDP-On", po: "LACP-Active" }
 
 int_profile_name:
-- Leaf-101
-- Leaf-102
+- L135
+- L136
+- L135-136
 
 port_selector:
-- { profile: "Leaf-101", selector: "Web-Server", interface: "1", polgro: "vpc_a" }
-- { profile: "Leaf-101", selector: "DB-Server", interface: "2", polgro: "po_a" }
-- { profile: "Leaf-102", selector: "App-Server", interface: "1", polgro: "vpc_b" }
-
+- { profile: "L135-136", selector: "vPC-IDM-IPADPHPC01", interface: "1", polgro: "vPC-IDM-IPADPHPC01" }
+- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-A", interface: "2", polgro: "vPC-IDM-IPAPPHPC01-A" }
+- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-1", interface: "3", polgro: "vPC-IDM-IPAPPHPC01-1" }
 
 leaf_profile_name:
-- Leaf-101
-- Leaf-102
+- L135
+- L136
+- L135-136
 
 leaf_profile:
-- { leaf: "Leaf-101", leaf_id: "101" }
-- { leaf: "Leaf-102", leaf_id: "102" }
+- { leaf: "L135-136", leaf_id: "135" }
+- { leaf: "L135-136", leaf_id: "136" }
+- { leaf: "L135", leaf_id: "135" }
+- { leaf: "L136", leaf_id: "136" }
+
 
 leaf_int_profile:
-- { leaf: "Leaf-101", int_profile: "Leaf-101"}
-- { leaf: "Leaf-102", int_profile: "Leaf-102"}
+- { leaf: "L135-136", int_profile: "L135-L136"}
+- { leaf: "L135", int_profile: "L135"}
+- { leaf: "L136", int_profile: "L136"}
+
 
 epg_domain:
-- { epg: "Web", domain: "Servers" }
-- { epg: "DB", domain: "Servers" }
-- { epg: "App", domain: "Servers" }
+  - { epg: "IDM_VL1901_DEV", domain: "BMGF-PHYS" }
+  - { epg: "IDM_VL1813_VMK_ISCSILEFT", domain: "BMGF-PHYS" }
+  - { epg: "IDM_VL1815_VMK_ISCSIRIGHT", domain: "BMGF-PHYS" }
+  - { epg: "IDM_VL1801_VMN_CORP", domain: "BMGF-PHYS" }
+  - { epg: "IDM_VL1810_VMN_CORP_DATA", domain: "BMGF-PHYS" }
+  - { epg: "IDM_VL1913_DEV_LINUX", domain: "BMGF-PHYS" }
+  - { epg: "IDM_VL1915_DEV_VM", domain: "BMGF-PHYS" }
+  - { epg: "IDM_VL1802_VMN_WORKSTATION", domain: "BMGF-PHYS" }
 
 epg_ports:
-- { epg: "Web", vlan: "10", int_mode: "trunk", int_type: "vpc", leaf: "101-102", interface: "1/1" }
-- { epg: "DB", vlan: "11", int_mode: "trunk", int_type: "port_channel", leaf: "102", interface: "1/1" }
-- { epg: "App", vlan: "12", int_mode: "trunk", int_type: "vpc", leaf: "101-102", interface: "1/2" }
+- { epg: "IDM_VL1901_DEV", vlan: "1901", int_mode: "native", int_type: "vpc", leaf: "135-136", interface: "1/1" }
+- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", leaf: "135-136", interface: "1/2" }
+- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", leaf: "135-136", interface: "1/3" }
