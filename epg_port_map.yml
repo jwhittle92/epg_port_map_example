@@ -39,6 +39,7 @@
       interface_profile: "{{ item.profile }}"
       access_port_selector: "{{ item.selector }}"
       policy_group: "{{ item.polgro }}"
+      interface_type: vpc
     loop:
       "{{ int_profile }}"
 
@@ -50,7 +51,6 @@
       port_blk: "{{ item.interface }}"
       from_port: "{{ item.interface }}"
       to_port: "{{ item.interface }}"
-      policy_group: "{{ item.polgro }}"
     loop:
       "{{ int_profile }}"
 
