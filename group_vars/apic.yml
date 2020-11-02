@@ -48,13 +48,13 @@ leaf_profile_name:
 - L135-136
 
 leaf_profile:
-- { leaf: "L135-136", leaf_id: "135-136" }
-- { leaf: "L135", leaf_id: "135" }
-- { leaf: "L136", leaf_id: "136" }
+- { leaf: "L135-136", leaf_id_first: "135", leaf_id_last: "136" }
+- { leaf: "L135", leaf_id_first: "135", leaf_id_last: "135"}
+- { leaf: "L135", leaf_id_first: "136", leaf_id_last: "136"}
 
 
 leaf_int_profile:
-- { leaf: "L135-136", int_profile: "L135-L136"}
+- { leaf: "L135-136", int_profile: "L135"}
 - { leaf: "L135", int_profile: "L135"}
 - { leaf: "L136", int_profile: "L136"}
 

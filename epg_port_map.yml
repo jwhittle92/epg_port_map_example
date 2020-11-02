@@ -58,8 +58,8 @@
       leaf_profile: "{{ item.leaf }}"
       leaf: "{{ item.leaf }}"
       leaf_node_blk: "{{ item.leaf }}"
-      from: "{{ item.leaf_id }}"
-      to: "{{ item.leaf_id }}"
+      from: "{{ item.leaf_id_first }}"
+      to: "{{ item.leaf_id_last }}"
     loop:
       "{{ leaf_profile }}"
 
