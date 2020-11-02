@@ -54,7 +54,7 @@ leaf_profile:
 
 
 leaf_int_profile:
-- { leaf: "L135-136", int_profile: "L135"}
+- { leaf: "L135-136", int_profile: "L135-136"}
 - { leaf: "L135", int_profile: "L135"}
 - { leaf: "L136", int_profile: "L136"}
 
