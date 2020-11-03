@@ -2,6 +2,9 @@ tenant: BMGF
 app_profile: IDM
 pod: 1
 
+link_policy: Auto
+l2_int_policy: Global
+
 int_policy_group:
 - { name: "vPC-IDM-IPADPHPC01", lag_type: "node", aep: "BMGF-AEP", cdp: "CDP-On", mcp: "MCP-On", lldp: "LLDP-On", po: "LACP-Active" }
 - { name: "vPC-IDM-IPAPPHPC01-A", lag_type: "node", aep: "BMGF-AEP", cdp: "CDP-On", mcp: "MCP-On", lldp: "LLDP-On", po: "LACP-Active" }
@@ -76,12 +79,12 @@ int_profile:
 - { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-22", polgro: "vPC-IDM-IPAPPHPC01-22", interface: "28" }
 - { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-23", polgro: "vPC-IDM-IPAPPHPC01-23", interface: "29" }
 - { profile: "L135-136", selector: "vPC-IDM-IDMPPDBS01-B", polgro: "vPC-IDM-IDMPPDBS01-B", interface: "30" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPCNT01-1", polgro: "vPC-IDM-IPAPPHPC01-13", interface: "32" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPCNT02-1", polgro: "vPC-IDM-IPAPPHPC01-14", interface: "33" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPCLD01", polgro: "vPC-IDM-IPAPPHPC01-15", interface: "34" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPCLD02", polgro: "vPC-IDM-IPAPPHPC01-16", interface: "36" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPCLD03", polgro: "vPC-IDM-IPAPPHPC01-17", interface: "38" }
-- { profile: "L135-136", selector: "vPC-IDM-IDMPPHYP09", polgro: "vPC-IDM-IPAPPHPC01-18", interface: "40" }
+- { profile: "L135-136", selector: "vPC-IDM-IPAPPCNT01-1", polgro: "vPC-IDM-IPAPPCNT01-1", interface: "32" }
+- { profile: "L135-136", selector: "vPC-IDM-IPAPPCNT02-1", polgro: "vPC-IDM-IPAPPCNT02-1", interface: "33" }
+- { profile: "L135-136", selector: "vPC-IDM-IPAPPCLD01", polgro: "vPC-IDM-IPAPPCLD01", interface: "34" }
+- { profile: "L135-136", selector: "vPC-IDM-IPAPPCLD02", polgro: "vPC-IDM-IPAPPCLD02", interface: "36" }
+- { profile: "L135-136", selector: "vPC-IDM-IPAPPCLD03", polgro: "vPC-IDM-IPAPPCLD03", interface: "38" }
+- { profile: "L135-136", selector: "vPC-IDM-IDMPPHYP09", polgro: "vPC-IDM-IDMPPHYP09", interface: "40" }
 
 
 leaf_profile_name:

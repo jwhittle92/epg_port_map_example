@@ -23,6 +23,8 @@
       lldp_policy: "{{ item.lldp }}"
       mcp_policy: "{{ item.mcp }}"
       port_channel_policy: "{{ item.po }}"
+      link_level_policy: "{{ link_policy }}"
+      l2_interface_policy: "{{ l2_int_policy }}"
     loop:
       "{{ int_policy_group }}"
 
