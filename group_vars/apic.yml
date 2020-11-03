@@ -71,18 +71,18 @@ epg_domain:
   - { epg: "IDM_VL1802_VMN_WORKSTATION", domain: "BMGF-PHYS" }
 
 epg_ports:
-- { epg: "IDM_VL1901_DEV", vlan: "1901", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPADPHPC01" }
+- { epg: "IDM_VL1901_DEV", vlan: "1901", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPAPPHPC01" }
 - { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPAPPHPC01-A" }
 - { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPAPPHPC01-1" }
-- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPADPHPC01-2" }
-- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPADPHPC01-3" }
-- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPADPHPC01-4" }
-- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPADPHPC01-5" }
-- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPADPHPC01-6" }
-- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPADPHPC01-7" }
-- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPADPHPC01-8" }
-- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPADPHPC01-9" }
-- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPADPHPC01-10" }
-- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPADPHPC01-11" }
-- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPADPHPC01-12" }
+- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPAPPHPC01-2" }
+- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPAPPHPC01-3" }
+- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPAPPHPC01-4" }
+- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPAPPHPC01-5" }
+- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPAPPHPC01-6" }
+- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPAPPHPC01-7" }
+- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPAPPHPC01-8" }
+- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPAPPHPC01-9" }
+- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPAPPHPC01-10" }
+- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPAPPHPC01-11" }
+- { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPAPPHPC01-12" }
 - { epg: "IDM_VL1810_VMN_CORP_DATA", vlan: "1810", int_mode: "trunk", int_type: "vpc", polgro: "vPC-IDM-IDMPPDBS01-A" }
