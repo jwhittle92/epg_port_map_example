@@ -141,12 +141,11 @@ epg_ports:
 - { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPAPPHPC01-22", leaf: "135-136" }
 - { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPAPPHPC01-23", leaf: "135-136" }
 - { epg: "IDM_VL1810_VMN_CORP_DATA", vlan: "1810", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IDMPPDBS01-B", leaf: "135-136" }
-
 - { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPAPPCNT01-1", leaf: "135-136" }
 - { epg: "IDM_VL1801_VMN_CORP", vlan: "1801", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPAPPCNT02-1", leaf: "135-136" }
-- { epg: "IDM_VL1913_DEV_LINUX", vlan: "1913", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPAPPCLD01", leaf: "135-136" }
-- { epg: "IDM_VL1915_DEV_VM", vlan: "1915", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPAPPCLD01", leaf: "135-136" }
-- { epg: "IDM_VL1913_DEV_LINUX", vlan: "1913", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPAPPCLD02", leaf: "135-136" }
-- { epg: "IDM_VL1915_DEV_VM", vlan: "1915", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPAPPCLD02", leaf: "135-136" }
-- { epg: "IDM_VL1913_DEV_LINUX", vlan: "1913", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPAPPCLD03", leaf: "135-136" }
-- { epg: "IDM_VL1810_VMN_CORP_DATA", vlan: "1915", int_mode: "native", int_type: "vpc", polgro: "vPC-IDM-IPAPPCLD03", leaf: "135-136" }
+- { epg: "IDM_VL1913_DEV_LINUX", vlan: "1913", int_mode: "trunk", int_type: "vpc", polgro: "vPC-IDM-IPAPPCLD01", leaf: "135-136" }
+- { epg: "IDM_VL1915_DEV_VM", vlan: "1915", int_mode: "trunk", int_type: "vpc", polgro: "vPC-IDM-IPAPPCLD01", leaf: "135-136" }
+- { epg: "IDM_VL1913_DEV_LINUX", vlan: "1913", int_mode: "trunk", int_type: "vpc", polgro: "vPC-IDM-IPAPPCLD02", leaf: "135-136" }
+- { epg: "IDM_VL1915_DEV_VM", vlan: "1915", int_mode: "trunk", int_type: "vpc", polgro: "vPC-IDM-IPAPPCLD02", leaf: "135-136" }
+- { epg: "IDM_VL1913_DEV_LINUX", vlan: "1913", int_mode: "trunk", int_type: "vpc", polgro: "vPC-IDM-IPAPPCLD03", leaf: "135-136" }
+- { epg: "IDM_VL1915_DEV_VM", vlan: "1915", int_mode: "trunk", int_type: "vpc", polgro: "vPC-IDM-IPAPPCLD03", leaf: "135-136" }
