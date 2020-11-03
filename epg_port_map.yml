@@ -103,5 +103,6 @@
       interface_type: "{{ item.int_type }}"
       pod_id: "{{ pod }}"
       interface: "{{ item.polgro }}"
+      leafs: "135-136"
     loop:
       "{{ epg_ports }}"
