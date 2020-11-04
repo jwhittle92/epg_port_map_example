@@ -6,6 +6,9 @@ link_policy: Auto
 l2_int_policy: Global
 
 int_policy_group:
+- { name: "vPC-IDM-IDMDPSQL02", lag_type: "node", aep: "BMGF-AEP", cdp: "CDP-On", mcp: "MCP-On", lldp: "LLDP-On", po: "LACP-Active" }
+- { name: "vPC-IDM-BAYESIANFIL01", lag_type: "node", aep: "BMGF-AEP", cdp: "CDP-On", mcp: "MCP-On", lldp: "LLDP-On", po: "LACP-Active" }
+- { name: "vPC-IDM-IDMPPESX00", lag_type: "node", aep: "BMGF-AEP", cdp: "CDP-On", mcp: "MCP-On", lldp: "LLDP-On", po: "LACP-Active" }
 - { name: "vPC-IDM-IPADPHPC01", lag_type: "node", aep: "BMGF-AEP", cdp: "CDP-On", mcp: "MCP-On", lldp: "LLDP-On", po: "LACP-Active" }
 - { name: "vPC-IDM-IPAPPHPC01-A", lag_type: "node", aep: "BMGF-AEP", cdp: "CDP-On", mcp: "MCP-On", lldp: "LLDP-On", po: "LACP-Active" }
 - { name: "vPC-IDM-IPAPPHPC01-1", lag_type: "node", aep: "BMGF-AEP", cdp: "CDP-On", mcp: "MCP-On", lldp: "LLDP-On", po: "LACP-Active" }
@@ -42,14 +45,46 @@ int_policy_group:
 - { name: "vPC-IDM-IPAPPCLD03", lag_type: "node", aep: "BMGF-AEP", cdp: "CDP-On", mcp: "MCP-On", lldp: "LLDP-On", po: "LACP-Active" }
 - { name: "vPC-IDM-IDMPPHYP09", lag_type: "node", aep: "BMGF-AEP", cdp: "CDP-On", mcp: "MCP-On", lldp: "LLDP-On", po: "LACP-Active" }
 
+- { name: "vPC-IDM-IPAPPCLD04", lag_type: "node", aep: "BMGF-AEP", cdp: "CDP-On", mcp: "MCP-On", lldp: "LLDP-On", po: "LACP-Active" }
+- { name: "vPC-IDM-IPAPPCLD05", lag_type: "node", aep: "BMGF-AEP", cdp: "CDP-On", mcp: "MCP-On", lldp: "LLDP-On", po: "LACP-Active" }
+- { name: "vPC-IDM-IPAPPCLD06", lag_type: "node", aep: "BMGF-AEP", cdp: "CDP-On", mcp: "MCP-On", lldp: "LLDP-On", po: "LACP-Active" }
+- { name: "vPC-IDM-IDMPPCHA05-A", lag_type: "node", aep: "BMGF-AEP", cdp: "CDP-On", mcp: "MCP-On", lldp: "LLDP-On", po: "LACP-Active" }
+- { name: "vPC-IDM-IDMPPCHA05-B", lag_type: "node", aep: "BMGF-AEP", cdp: "CDP-On", mcp: "MCP-On", lldp: "LLDP-On", po: "LACP-Active" }
+- { name: "vPC-IDM-IDMPPHYP00", lag_type: "node", aep: "BMGF-AEP", cdp: "CDP-On", mcp: "MCP-On", lldp: "LLDP-On", po: "LACP-Active" }
+- { name: "vPC-IDM-IDMPPFIL02", lag_type: "node", aep: "BMGF-AEP", cdp: "CDP-On", mcp: "MCP-On", lldp: "LLDP-On", po: "LACP-Active" }
+- { name: "vPC-IDM-IDMPPCHA03-A", lag_type: "node", aep: "BMGF-AEP", cdp: "CDP-On", mcp: "MCP-On", lldp: "LLDP-On", po: "LACP-Active" }
+- { name: "vPC-IDM-IDMPPCHA03-B", lag_type: "node", aep: "BMGF-AEP", cdp: "CDP-On", mcp: "MCP-On", lldp: "LLDP-On", po: "LACP-Active" }
+- { name: "vPC-IDM-IDMPPCHA01-A", lag_type: "node", aep: "BMGF-AEP", cdp: "CDP-On", mcp: "MCP-On", lldp: "LLDP-On", po: "LACP-Active" }
+- { name: "vPC-IDM-IDMPPCHA01-B", lag_type: "node", aep: "BMGF-AEP", cdp: "CDP-On", mcp: "MCP-On", lldp: "LLDP-On", po: "LACP-Active" }
+- { name: "vPC-IDM-IDMPPCHA04-A", lag_type: "node", aep: "BMGF-AEP", cdp: "CDP-On", mcp: "MCP-On", lldp: "LLDP-On", po: "LACP-Active" }
+- { name: "vPC-IDM-IDMPPCHA04-B", lag_type: "node", aep: "BMGF-AEP", cdp: "CDP-On", mcp: "MCP-On", lldp: "LLDP-On", po: "LACP-Active" }
+- { name: "vPC-IDM-IDMPPCHA02-A", lag_type: "node", aep: "BMGF-AEP", cdp: "CDP-On", mcp: "MCP-On", lldp: "LLDP-On", po: "LACP-Active" }
+- { name: "vPC-IDM-IDMPPCHA02-B", lag_type: "node", aep: "BMGF-AEP", cdp: "CDP-On", mcp: "MCP-On", lldp: "LLDP-On", po: "LACP-Active" }
+- { name: "vPC-IDM-IDMPPSTR04", lag_type: "node", aep: "BMGF-AEP", cdp: "CDP-On", mcp: "MCP-On", lldp: "LLDP-On", po: "LACP-Active" }
+- { name: "vPC-IDM-IDMPPSTR09", lag_type: "node", aep: "BMGF-AEP", cdp: "CDP-On", mcp: "MCP-On", lldp: "LLDP-On", po: "LACP-Active" }
+
 
 int_profile_name:
+- L131
+- L132
+- L131-132
+- L133
+- L134
+- L133-134
 - L135
 - L136
 - L135-136
-
+- L137
+- L138
+- L137-138
+- L139
+- L140
+- L139-140
 
 int_profile:
+- { profile: "L133-134", selector: "vPC-IDM-IDMDPSQL02", polgro: "vPC-IDM-IDMDPSQL02", interface: "1" }
+- { profile: "L133-134", selector: "vPC-IDM-BAYESIANFIL01", polgro: "vPC-IDM-BAYESIANFIL01", interface: "2" }
+- { profile: "L133-134", selector: "vPC-IDM-IDMPPESX00", polgro: "vPC-IDM-IDMPPESX00", interface: "3" }
 - { profile: "L135-136", selector: "vPC-IDM-IPADPHPC01", polgro: "vPC-IDM-IPADPHPC01", interface: "1" }
 - { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-A", polgro: "vPC-IDM-IPAPPHPC01-A", interface: "2" }
 - { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-1", polgro: "vPC-IDM-IPAPPHPC01-1", interface: "3" }
@@ -85,6 +120,8 @@ int_profile:
 - { profile: "L135-136", selector: "vPC-IDM-IPAPPCLD02", polgro: "vPC-IDM-IPAPPCLD02", interface: "36" }
 - { profile: "L135-136", selector: "vPC-IDM-IPAPPCLD03", polgro: "vPC-IDM-IPAPPCLD03", interface: "38" }
 - { profile: "L135-136", selector: "vPC-IDM-IDMPPHYP09", polgro: "vPC-IDM-IDMPPHYP09", interface: "40" }
+- { profile: "L133", selector: "IDM-IDMDPSQL02-ISCSI", polgro: "Auto-Access", interface: "2" }
+- { profile: "L134", selector: "IDM-IDMDPSQL02-ISCSI", polgro: "Auto-Access", interface: "2" }
 - { profile: "L135", selector: "IDM-IDMPPDBS01-A", polgro: "Auto-Access", interface: "16" }
 - { profile: "L136", selector: "IDM-IDMPPDBS01-A", polgro: "Auto-Access", interface: "16" }
 - { profile: "L135", selector: "vPC-IDM-IDMPPDBS01-B", polgro: "Auto-Access", interface: "31" }
@@ -96,22 +133,78 @@ int_profile:
 - { profile: "L135", selector: "vPC-IDM-IDMPPHYP09", polgro: "Auto-Access", interface: "39" }
 - { profile: "L136", selector: "vPC-IDM-IDMPPHYP09", polgro: "Auto-Access", interface: "39" }
 
+- { profile: "L137-138", selector: "vPC-IDM-IPAPPCLD04", polgro: "vPC-IDM-IPAPPCLD04", interface: "1" }
+- { profile: "L137-138", selector: "vPC-IDM-IPAPPCLD05", polgro: "vPC-IDM-IPAPPCLD05", interface: "3" }
+- { profile: "L137-138", selector: "vPC-IDM-IPAPPCLD06", polgro: "vPC-IDM-IPAPPCLD06", interface: "5" }
+- { profile: "L137-138", selector: "vPC-IDM-IDMPPCHA05-A", polgro: "vPC-IDM-IDMPPCHA05-A", interface: "7-8" }
+- { profile: "L137-138", selector: "vPC-IDM-IDMPPCHA05-B", polgro: "vPC-IDM-IDMPPCHA05-B", interface: "9-10" }
+- { profile: "L137-138", selector: "vPC-IDM-IDMPPTSS03", polgro: "vPC-IDM-IDMPPTSS03", interface: "11" }
+- { profile: "L137-138", selector: "vPC-IDM-IDMPPHYP00", polgro: "vPC-IDM-IDMPPHYP00", interface: "12" }
+- { profile: "L137-138", selector: "vPC-IDM-IDMPPFIL02", polgro: "vPC-IDM-IDMPPFIL02", interface: "13" }
+- { profile: "L137-138", selector: "vPC-IDM-IDMPPCHA03-A", polgro: "vPC-IDM-IDMPPCHA03-A", interface: "14-15" }
+- { profile: "L137-138", selector: "vPC-IDM-IDMPPCHA03-B", polgro: "vPC-IDM-IDMPPCHA03-B", interface: "16-17" }
+- { profile: "L137-138", selector: "vPC-IDM-IDMPPCHA01-A", polgro: "vPC-IDM-IDMPPCHA01-A", interface: "18-19" }
+- { profile: "L137-138", selector: "vPC-IDM-IDMPPCHA01-B", polgro: "vPC-IDM-IDMPPCHA01-B", interface: "20-21" }
+- { profile: "L137-138", selector: "vPC-IDM-IDMPPCHA04-A", polgro: "vPC-IDM-IDMPPCHA04-A", interface: "22-23" }
+- { profile: "L137-138", selector: "vPC-IDM-IDMPPCHA04-B", polgro: "vPC-IDM-IDMPPCHA04-B", interface: "24-25" }
+- { profile: "L137-138", selector: "vPC-IDM-IDMPPCHA02-A", polgro: "vPC-IDM-IDMPPCHA02-A", interface: "26-27" }
+- { profile: "L137-138", selector: "vPC-IDM-IDMPPCHA02-B", polgro: "vPC-IDM-IDMPPCHA02-B", interface: "28-29" }
+- { profile: "L139-140", selector: "vPC-IDM-IDMPPSTR04", polgro: "vPC-IDM-IDMPPSTR04", interface: "7" }
+- { profile: "L139-140", selector: "vPC-IDM-IDMPPSTR04", polgro: "vPC-IDM-IDMPPSTR04", interface: "8" }
+- { profile: "L139-140", selector: "vPC-IDM-IDMPPSTR09", polgro: "vPC-IDM-IDMPPSTR09", interface: "13" }
+
+
 leaf_profile_name:
+- L131
+- L132
+- L131-132
+- L133
+- L134
+- L133-134
 - L135
 - L136
 - L135-136
+- L137
+- L138
+- L137-138
+- L139
+- L140
+- L139-140
 
 leaf_profile:
+- { leaf: "L131-132", leaf_id_first: "131", leaf_id_last: "132" }
+- { leaf: "L131", leaf_id_first: "131", leaf_id_last: "131"}
+- { leaf: "L132", leaf_id_first: "132", leaf_id_last: "132"}
+- { leaf: "L133-134", leaf_id_first: "133", leaf_id_last: "134" }
+- { leaf: "L133", leaf_id_first: "133", leaf_id_last: "133"}
+- { leaf: "L134", leaf_id_first: "134", leaf_id_last: "134"}
 - { leaf: "L135-136", leaf_id_first: "135", leaf_id_last: "136" }
 - { leaf: "L135", leaf_id_first: "135", leaf_id_last: "135"}
 - { leaf: "L136", leaf_id_first: "136", leaf_id_last: "136"}
+- { leaf: "L137-138", leaf_id_first: "137", leaf_id_last: "138" }
+- { leaf: "L137", leaf_id_first: "137", leaf_id_last: "137"}
+- { leaf: "L138", leaf_id_first: "138", leaf_id_last: "138"}
+- { leaf: "L139-140", leaf_id_first: "139", leaf_id_last: "140" }
+- { leaf: "L139", leaf_id_first: "139", leaf_id_last: "139"}
+- { leaf: "L140", leaf_id_first: "140", leaf_id_last: "140"}
 
 
 leaf_int_profile:
+- { leaf: "L131-132", int_profile: "L131-132"}
+- { leaf: "L132", int_profile: "L131"}
+- { leaf: "L131", int_profile: "L132"}
+- { leaf: "L133-134", int_profile: "L133-134"}
+- { leaf: "L133", int_profile: "L133"}
+- { leaf: "L134", int_profile: "L134"}
 - { leaf: "L135-136", int_profile: "L135-136"}
 - { leaf: "L135", int_profile: "L135"}
 - { leaf: "L136", int_profile: "L136"}
-
+- { leaf: "L137-138", int_profile: "L137-138"}
+- { leaf: "L137", int_profile: "L137"}
+- { leaf: "L138", int_profile: "L138"}
+- { leaf: "L139-140", int_profile: "L139-140"}
+- { leaf: "L139", int_profile: "L139"}
+- { leaf: "L140", int_profile: "L140"}
 
 epg_domain:
   - { epg: "IDM_VL1901_DEV", domain: "BMGF-PHYS" }
