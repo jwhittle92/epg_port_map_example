@@ -82,8 +82,8 @@ int_profile_name:
 
 int_profile:
 - { int_type: "vpc", profile: "L133-134", selector: "vPC-IDM-IDMDPSQL02", polgro: "vPC-IDM-IDMDPSQL02", interface: "1" }
-- { int_type: "vpc", profile: "L133-134", selector: "vPC-IDM-BAYESIANFIL01", polgro: "vPC-IDM-BAYESIANFIL01", interface: "2" }
-- { int_type: "vpc", profile: "L133-134", selector: "vPC-IDM-IDMPPESX00", polgro: "vPC-IDM-IDMPPESX00", interface: "3" }
+- { int_type: "vpc", profile: "L133-134", selector: "vPC-IDM-BAYESIANFIL01", polgro: "vPC-IDM-BAYESIANFIL01", interface: "3" }
+- { int_type: "vpc", profile: "L133-134", selector: "vPC-IDM-IDMPPESX00", polgro: "vPC-IDM-IDMPPESX00", interface: "4" }
 - { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPADPHPC01", polgro: "vPC-IDM-IPADPHPC01", interface: "1" }
 - { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-A", polgro: "vPC-IDM-IPAPPHPC01-A", interface: "2" }
 - { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-1", polgro: "vPC-IDM-IPAPPHPC01-1", interface: "3" }
@@ -119,18 +119,18 @@ int_profile:
 - { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPAPPCLD02", polgro: "vPC-IDM-IPAPPCLD02", interface: "36" }
 - { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPAPPCLD03", polgro: "vPC-IDM-IPAPPCLD03", interface: "38" }
 - { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IDMPPHYP09", polgro: "vPC-IDM-IDMPPHYP09", interface: "40" }
-- { int_type: "vpc", profile: "L133", selector: "IDM-IDMDPSQL02-ISCSI", polgro: "Auto-Access", interface: "2" }
-- { int_type: "vpc", profile: "L134", selector: "IDM-IDMDPSQL02-ISCSI", polgro: "Auto-Access", interface: "2" }
-- { int_type: "vpc", profile: "L135", selector: "IDM-IDMPPDBS01-A", polgro: "Auto-Access", interface: "16" }
-- { int_type: "vpc", profile: "L136", selector: "IDM-IDMPPDBS01-A", polgro: "Auto-Access", interface: "16" }
-- { int_type: "vpc", profile: "L135", selector: "vPC-IDM-IDMPPDBS01-B", polgro: "Auto-Access", interface: "31" }
-- { int_type: "vpc", profile: "L136", selector: "vPC-IDM-IPAPPCNT01-1", polgro: "Auto-Access", interface: "31" }
-- { int_type: "vpc", profile: "L135", selector: "vPC-IDM-IPAPPCNT02-1", polgro: "Auto-Access", interface: "35" }
-- { int_type: "vpc", profile: "L136", selector: "vPC-IDM-IPAPPCLD01", polgro: "Auto-Access", interface: "35" }
-- { int_type: "vpc", profile: "L135", selector: "vPC-IDM-IPAPPCLD02", polgro: "Auto-Access", interface: "37" }
-- { int_type: "vpc", profile: "L136", selector: "vPC-IDM-IPAPPCLD03", polgro: "Auto-Access", interface: "37" }
-- { int_type: "vpc", profile: "L135", selector: "vPC-IDM-IDMPPHYP09", polgro: "Auto-Access", interface: "39" }
-- { int_type: "vpc", profile: "L136", selector: "vPC-IDM-IDMPPHYP09", polgro: "Auto-Access", interface: "39" }
+- { int_type: "switch_port", profile: "L133", selector: "IDM-IDMDPSQL02-ISCSI", polgro: "Auto-Access", interface: "2" }
+- { int_type: "switch_port", profile: "L134", selector: "IDM-IDMDPSQL02-ISCSI", polgro: "Auto-Access", interface: "2" }
+- { int_type: "switch_port", profile: "L135", selector: "IDM-IDMPPDBS01-A", polgro: "Auto-Access", interface: "16" }
+- { int_type: "switch_port", profile: "L136", selector: "IDM-IDMPPDBS01-A", polgro: "Auto-Access", interface: "16" }
+- { int_type: "switch_port", profile: "L135", selector: "vPC-IDM-IDMPPDBS01-B", polgro: "Auto-Access", interface: "31" }
+- { int_type: "switch_port", profile: "L136", selector: "vPC-IDM-IPAPPCNT01-1", polgro: "Auto-Access", interface: "31" }
+- { int_type: "switch_port", profile: "L135", selector: "vPC-IDM-IPAPPCNT02-1", polgro: "Auto-Access", interface: "35" }
+- { int_type: "switch_port", profile: "L136", selector: "vPC-IDM-IPAPPCLD01", polgro: "Auto-Access", interface: "35" }
+- { int_type: "switch_port", profile: "L135", selector: "vPC-IDM-IPAPPCLD02", polgro: "Auto-Access", interface: "37" }
+- { int_type: "switch_port", profile: "L136", selector: "vPC-IDM-IPAPPCLD03", polgro: "Auto-Access", interface: "37" }
+- { int_type: "switch_port", profile: "L135", selector: "vPC-IDM-IDMPPHYP09", polgro: "Auto-Access", interface: "39" }
+- { int_type: "switch_port", profile: "L136", selector: "vPC-IDM-IDMPPHYP09", polgro: "Auto-Access", interface: "39" }
 - { int_type: "vpc", profile: "L137-138", selector: "vPC-IDM-IPAPPCLD04", polgro: "vPC-IDM-IPAPPCLD04", interface: "1" }
 - { int_type: "vpc", profile: "L137-138", selector: "vPC-IDM-IPAPPCLD05", polgro: "vPC-IDM-IPAPPCLD05", interface: "3" }
 - { int_type: "vpc", profile: "L137-138", selector: "vPC-IDM-IPAPPCLD06", polgro: "vPC-IDM-IPAPPCLD06", interface: "5" }
@@ -268,8 +268,8 @@ leaf_profile:
 
 leaf_int_profile:
 - { leaf: "L131-132", int_profile: "L131-132"}
-- { leaf: "L132", int_profile: "L131"}
-- { leaf: "L131", int_profile: "L132"}
+- { leaf: "L132", int_profile: "L132"}
+- { leaf: "L131", int_profile: "L131"}
 - { leaf: "L133-134", int_profile: "L133-134"}
 - { leaf: "L133", int_profile: "L133"}
 - { leaf: "L134", int_profile: "L134"}
