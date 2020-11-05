@@ -81,155 +81,155 @@ int_profile_name:
 - L139-140
 
 int_profile:
-- { profile: "L133-134", selector: "vPC-IDM-IDMDPSQL02", polgro: "vPC-IDM-IDMDPSQL02", interface: "1" }
-- { profile: "L133-134", selector: "vPC-IDM-BAYESIANFIL01", polgro: "vPC-IDM-BAYESIANFIL01", interface: "2" }
-- { profile: "L133-134", selector: "vPC-IDM-IDMPPESX00", polgro: "vPC-IDM-IDMPPESX00", interface: "3" }
-- { profile: "L135-136", selector: "vPC-IDM-IPADPHPC01", polgro: "vPC-IDM-IPADPHPC01", interface: "1" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-A", polgro: "vPC-IDM-IPAPPHPC01-A", interface: "2" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-1", polgro: "vPC-IDM-IPAPPHPC01-1", interface: "3" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-2", polgro: "vPC-IDM-IPAPPHPC01-2", interface: "4" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-3", polgro: "vPC-IDM-IPAPPHPC01-3", interface: "5" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-4", polgro: "vPC-IDM-IPAPPHPC01-4", interface: "6" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-5", polgro: "vPC-IDM-IPAPPHPC01-5", interface: "7" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-6", polgro: "vPC-IDM-IPAPPHPC01-6", interface: "8" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-7", polgro: "vPC-IDM-IPAPPHPC01-7", interface: "9" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-8", polgro: "vPC-IDM-IPAPPHPC01-8", interface: "10" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-9", polgro: "vPC-IDM-IPAPPHPC01-9", interface: "11" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-10", polgro: "vPC-IDM-IPAPPHPC01-10", interface: "12" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-11", polgro: "vPC-IDM-IPAPPHPC01-11", interface: "13" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-12", polgro: "vPC-IDM-IPAPPHPC01-12", interface: "14" }
-- { profile: "L135-136", selector: "vPC-IDM-IDMPPDBS01-A", polgro: "vPC-IDM-IDMPPDBS01-A", interface: "15" }
-- { profile: "L135-136", selector: "vPC-IDM-IPADPHPC01-1", polgro: "vPC-IDM-IPADPHPC01-1", interface: "17" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPDBS01", polgro: "vPC-IDM-IPAPPDBS01", interface: "18" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-13", polgro: "vPC-IDM-IPAPPHPC01-13", interface: "19" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-14", polgro: "vPC-IDM-IPAPPHPC01-14", interface: "20" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-15", polgro: "vPC-IDM-IPAPPHPC01-15", interface: "21" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-16", polgro: "vPC-IDM-IPAPPHPC01-16", interface: "22" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-17", polgro: "vPC-IDM-IPAPPHPC01-17", interface: "23" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-18", polgro: "vPC-IDM-IPAPPHPC01-18", interface: "24" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-19", polgro: "vPC-IDM-IPAPPHPC01-19", interface: "25" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-20", polgro: "vPC-IDM-IPAPPHPC01-20", interface: "26" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-21", polgro: "vPC-IDM-IPAPPHPC01-21", interface: "27" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-22", polgro: "vPC-IDM-IPAPPHPC01-22", interface: "28" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-23", polgro: "vPC-IDM-IPAPPHPC01-23", interface: "29" }
-- { profile: "L135-136", selector: "vPC-IDM-IDMPPDBS01-B", polgro: "vPC-IDM-IDMPPDBS01-B", interface: "30" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPCNT01-1", polgro: "vPC-IDM-IPAPPCNT01-1", interface: "32" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPCNT02-1", polgro: "vPC-IDM-IPAPPCNT02-1", interface: "33" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPCLD01", polgro: "vPC-IDM-IPAPPCLD01", interface: "34" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPCLD02", polgro: "vPC-IDM-IPAPPCLD02", interface: "36" }
-- { profile: "L135-136", selector: "vPC-IDM-IPAPPCLD03", polgro: "vPC-IDM-IPAPPCLD03", interface: "38" }
-- { profile: "L135-136", selector: "vPC-IDM-IDMPPHYP09", polgro: "vPC-IDM-IDMPPHYP09", interface: "40" }
-- { profile: "L133", selector: "IDM-IDMDPSQL02-ISCSI", polgro: "Auto-Access", interface: "2" }
-- { profile: "L134", selector: "IDM-IDMDPSQL02-ISCSI", polgro: "Auto-Access", interface: "2" }
-- { profile: "L135", selector: "IDM-IDMPPDBS01-A", polgro: "Auto-Access", interface: "16" }
-- { profile: "L136", selector: "IDM-IDMPPDBS01-A", polgro: "Auto-Access", interface: "16" }
-- { profile: "L135", selector: "vPC-IDM-IDMPPDBS01-B", polgro: "Auto-Access", interface: "31" }
-- { profile: "L136", selector: "vPC-IDM-IPAPPCNT01-1", polgro: "Auto-Access", interface: "31" }
-- { profile: "L135", selector: "vPC-IDM-IPAPPCNT02-1", polgro: "Auto-Access", interface: "35" }
-- { profile: "L136", selector: "vPC-IDM-IPAPPCLD01", polgro: "Auto-Access", interface: "35" }
-- { profile: "L135", selector: "vPC-IDM-IPAPPCLD02", polgro: "Auto-Access", interface: "37" }
-- { profile: "L136", selector: "vPC-IDM-IPAPPCLD03", polgro: "Auto-Access", interface: "37" }
-- { profile: "L135", selector: "vPC-IDM-IDMPPHYP09", polgro: "Auto-Access", interface: "39" }
-- { profile: "L136", selector: "vPC-IDM-IDMPPHYP09", polgro: "Auto-Access", interface: "39" }
-- { profile: "L137-138", selector: "vPC-IDM-IPAPPCLD04", polgro: "vPC-IDM-IPAPPCLD04", interface: "1" }
-- { profile: "L137-138", selector: "vPC-IDM-IPAPPCLD05", polgro: "vPC-IDM-IPAPPCLD05", interface: "3" }
-- { profile: "L137-138", selector: "vPC-IDM-IPAPPCLD06", polgro: "vPC-IDM-IPAPPCLD06", interface: "5" }
-- { profile: "L137-138", selector: "vPC-IDM-IDMPPCHA05-A", polgro: "vPC-IDM-IDMPPCHA05-A", interface: "7" }
-- { profile: "L137-138", selector: "vPC-IDM-IDMPPCHA05-A", polgro: "vPC-IDM-IDMPPCHA05-A", interface: "8" }
-- { profile: "L137-138", selector: "vPC-IDM-IDMPPCHA05-B", polgro: "vPC-IDM-IDMPPCHA05-B", interface: "9" }
-- { profile: "L137-138", selector: "vPC-IDM-IDMPPCHA05-B", polgro: "vPC-IDM-IDMPPCHA05-B", interface: "10" }
-- { profile: "L137-138", selector: "vPC-IDM-IDMPPTSS03", polgro: "vPC-IDM-IDMPPTSS03", interface: "11" }
-- { profile: "L137-138", selector: "vPC-IDM-IDMPPHYP00", polgro: "vPC-IDM-IDMPPHYP00", interface: "12" }
-- { profile: "L137-138", selector: "vPC-IDM-IDMPPFIL02", polgro: "vPC-IDM-IDMPPFIL02", interface: "13" }
-- { profile: "L137-138", selector: "vPC-IDM-IDMPPCHA03-A", polgro: "vPC-IDM-IDMPPCHA03-A", interface: "14" }
-- { profile: "L137-138", selector: "vPC-IDM-IDMPPCHA03-A", polgro: "vPC-IDM-IDMPPCHA03-A", interface: "15" }
-- { profile: "L137-138", selector: "vPC-IDM-IDMPPCHA03-B", polgro: "vPC-IDM-IDMPPCHA03-B", interface: "16" }
-- { profile: "L137-138", selector: "vPC-IDM-IDMPPCHA03-B", polgro: "vPC-IDM-IDMPPCHA03-B", interface: "17" }
-- { profile: "L137-138", selector: "vPC-IDM-IDMPPCHA01-A", polgro: "vPC-IDM-IDMPPCHA01-A", interface: "18" }
-- { profile: "L137-138", selector: "vPC-IDM-IDMPPCHA01-A", polgro: "vPC-IDM-IDMPPCHA01-A", interface: "19" }
-- { profile: "L137-138", selector: "vPC-IDM-IDMPPCHA01-B", polgro: "vPC-IDM-IDMPPCHA01-B", interface: "20" }
-- { profile: "L137-138", selector: "vPC-IDM-IDMPPCHA01-B", polgro: "vPC-IDM-IDMPPCHA01-B", interface: "21" }
-- { profile: "L137-138", selector: "vPC-IDM-IDMPPCHA04-A", polgro: "vPC-IDM-IDMPPCHA04-A", interface: "22" }
-- { profile: "L137-138", selector: "vPC-IDM-IDMPPCHA04-A", polgro: "vPC-IDM-IDMPPCHA04-A", interface: "23" }
-- { profile: "L137-138", selector: "vPC-IDM-IDMPPCHA04-B", polgro: "vPC-IDM-IDMPPCHA04-B", interface: "24" }
-- { profile: "L137-138", selector: "vPC-IDM-IDMPPCHA04-B", polgro: "vPC-IDM-IDMPPCHA04-B", interface: "25" }
-- { profile: "L137-138", selector: "vPC-IDM-IDMPPCHA02-A", polgro: "vPC-IDM-IDMPPCHA02-A", interface: "26" }
-- { profile: "L137-138", selector: "vPC-IDM-IDMPPCHA02-A", polgro: "vPC-IDM-IDMPPCHA02-A", interface: "27" }
-- { profile: "L137-138", selector: "vPC-IDM-IDMPPCHA02-B", polgro: "vPC-IDM-IDMPPCHA02-B", interface: "28" }
-- { profile: "L137-138", selector: "vPC-IDM-IDMPPCHA02-B", polgro: "vPC-IDM-IDMPPCHA02-B", interface: "29" }
-- { profile: "L139-140", selector: "vPC-IDM-IDMPPSTR04", polgro: "vPC-IDM-IDMPPSTR04", interface: "7" }
-- { profile: "L139-140", selector: "vPC-IDM-IDMPPSTR04", polgro: "vPC-IDM-IDMPPSTR04", interface: "8" }
-- { profile: "L139-140", selector: "vPC-IDM-IDMPPSTR09", polgro: "vPC-IDM-IDMPPSTR09", interface: "13" }
-- { profile: "L133", selector: "IDM-IPAPPCLD04", polgro: "Auto-Access", interface: "2" }
-- { profile: "L134", selector: "IDM-IDMDPSQL02-ISCSI", polgro: "Auto-Access", interface: "4" }
-- { profile: "L135", selector: "IDM-IDMPPDBS01-A", polgro: "Auto-Access", interface: "6" }
-- { profile: "L139", selector: "IDM-IDMPPSTR01-A1", polgro: "Auto-Access", interface: "1" }
-- { profile: "L139", selector: "IDM-IDMPPSTR01-B1", polgro: "Auto-Access", interface: "2" }
-- { profile: "L140", selector: "IDM-IDMPPSTR01-A2", polgro: "Auto-Access", interface: "1" }
-- { profile: "L140", selector: "IDM-IDMPPSTR01-B2", polgro: "Auto-Access", interface: "2" }
-- { profile: "L139", selector: "IDM-IDMPPSTR05-A1", polgro: "Auto-Access", interface: "3" }
-- { profile: "L139", selector: "IDM-IDMPPSTR05-B1", polgro: "Auto-Access", interface: "4" }
-- { profile: "L140", selector: "IDM-IDMPPSTR05-A2", polgro: "Auto-Access", interface: "3" }
-- { profile: "L140", selector: "IDM-IDMPPSTR05-B2", polgro: "Auto-Access", interface: "4" }
-- { profile: "L139", selector: "IDM-IDMPPSTR04-A1", polgro: "Auto-Access", interface: "5" }
-- { profile: "L139", selector: "IDM-IDMPPSTR04-B1", polgro: "Auto-Access", interface: "6" }
-- { profile: "L140", selector: "IDM-IDMPPSTR04-A2", polgro: "Auto-Access", interface: "5" }
-- { profile: "L140", selector: "IDM-IDMPPSTR04-B2", polgro: "Auto-Access", interface: "6" }
-- { profile: "L139", selector: "IDM-IDMPPSTR10-A1", polgro: "Auto-Access", interface: "9" }
-- { profile: "L139", selector: "IDM-IDMPPSTR10-B1", polgro: "Auto-Access", interface: "10" }
-- { profile: "L140", selector: "IDM-IDMPPSTR10-A2", polgro: "Auto-Access", interface: "9" }
-- { profile: "L140", selector: "IDM-IDMPPSTR10-B2", polgro: "Auto-Access", interface: "10" }
-- { profile: "L139", selector: "IDM-IDMPPSTR07-A1", polgro: "Auto-Access", interface: "11" }
-- { profile: "L139", selector: "IDM-IDMPPSTR07-B1", polgro: "Auto-Access", interface: "12" }
-- { profile: "L140", selector: "IDM-IDMPPSTR07-A2", polgro: "Auto-Access", interface: "11" }
-- { profile: "L140", selector: "IDM-IDMPPSTR07-B2", polgro: "Auto-Access", interface: "12" }
-- { profile: "L131", selector: "IDM-Bayesianhpc02", polgro: "Auto-Access", interface: "1" }
-- { profile: "L131", selector: "IDM-Bayesianhpc-100", polgro: "Auto-Access", interface: "2" }
-- { profile: "L131", selector: "IDM-Bayesianhpc-101", polgro: "Auto-Access", interface: "3" }
-- { profile: "L131", selector: "IDM-Bayesianhpc-102", polgro: "Auto-Access", interface: "4" }
-- { profile: "L131", selector: "IDM-Bayesianhpc-104", polgro: "Auto-Access", interface: "5" }
-- { profile: "L131", selector: "IDM-Bayesianhpc-105", polgro: "Auto-Access", interface: "6" }
-- { profile: "L131", selector: "IDM-Bayesianhpc-106", polgro: "Auto-Access", interface: "7" }
-- { profile: "L131", selector: "IDM-Bayesianhpc-107", polgro: "Auto-Access", interface: "8" }
-- { profile: "L131", selector: "IDM-Bayesianhpc-108", polgro: "Auto-Access", interface: "9" }
-- { profile: "L131", selector: "IDM-Bayesianhpc-109", polgro: "Auto-Access", interface: "10" }
-- { profile: "L131", selector: "IDM-Bayesianhpc-111", polgro: "Auto-Access", interface: "11" }
-- { profile: "L131", selector: "IDM-Bayesianhpc-112", polgro: "Auto-Access", interface: "12" }
-- { profile: "L131", selector: "IDM-Bayesianhpc-113", polgro: "Auto-Access", interface: "13" }
-- { profile: "L131", selector: "IDM-Bayesianhpc-114", polgro: "Auto-Access", interface: "14" }
-- { profile: "L131", selector: "IDM-Bayesianhpc-115", polgro: "Auto-Access", interface: "15" }
-- { profile: "L131", selector: "IDM-Bayesianhpc-116", polgro: "Auto-Access", interface: "16" }
-- { profile: "L131", selector: "IDM-Bayesianhpc-117", polgro: "Auto-Access", interface: "17" }
-- { profile: "L131", selector: "IDM-Bayesianhpc-118", polgro: "Auto-Access", interface: "18" }
-- { profile: "L131", selector: "IDM-Bayesianhpc-119", polgro: "Auto-Access", interface: "19" }
-- { profile: "L131", selector: "IDM-Bayesianhpc-120", polgro: "Auto-Access", interface: "20" }
-- { profile: "L131", selector: "IDM-Bayesianhpc-121", polgro: "Auto-Access", interface: "21" }
-- { profile: "L131", selector: "IDM-Bayesianhpc-122", polgro: "Auto-Access", interface: "22" }
-- { profile: "L132", selector: "IDM-IPAPPHYP01", polgro: "Auto-Access", interface: "1" }
-- { profile: "L132", selector: "IDM-IPAPPHYP02", polgro: "Auto-Access", interface: "2" }
-- { profile: "L132", selector: "IDM-IPAPPHYP03", polgro: "Auto-Access", interface: "3" } 
-- { profile: "L132", selector: "IDM-IDMPPWKS022", polgro: "Auto-Access", interface: "4" }
-- { profile: "L132", selector: "IDM-IDMPPWKS037", polgro: "Auto-Access", interface: "5" }
-- { profile: "L132", selector: "IDM-IDMPPWKS091", polgro: "Auto-Access", interface: "6" }
-- { profile: "L132", selector: "IDM-IDM-000642", polgro: "Auto-Access", interface: "7" }
-- { profile: "L132", selector: "IDM-IDMPPWKS098", polgro: "Auto-Access", interface: "8" }
-- { profile: "L132", selector: "IDM-IDMPPWKS001", polgro: "Auto-Access", interface: "9" }
-- { profile: "L132", selector: "IDM-IDMPPWKS062", polgro: "Auto-Access", interface: "10" }
-- { profile: "L132", selector: "IDM-IPAPPWKS003", polgro: "Auto-Access", interface: "11" }
-- { profile: "L132", selector: "IDM-IDMDPWKS036", polgro: "Auto-Access", interface: "12" }
-- { profile: "L132", selector: "IDM-IPAPPWKS03", polgro: "Auto-Access", interface: "13" }
-- { profile: "L132", selector: "IDM-IPAPPWKS001", polgro: "Auto-Access", interface: "14" }
-- { profile: "L132", selector: "IDM-IDMPPWKS008", polgro: "Auto-Access", interface: "15" }
-- { profile: "L131-132", selector: "IDM-IDMPPBAK02-1", polgro: "Auto-Access", interface: "23" }
-- { profile: "L131", selector: "IDM-IDMPPBAK02-3", polgro: "Auto-Access", interface: "24" }
-- { profile: "L132", selector: "IDM-IDMPPBAK02-4", polgro: "Auto-Access", interface: "24" }
-- { profile: "L131-132", selector: "IDM-IDMPPOPS01-1", polgro: "Auto-Access", interface: "25" }
-- { profile: "L132", selector: "IDM-IDMPPWKS023", polgro: "Auto-Access", interface: "16" }
-- { profile: "L132", selector: "IDM-IDMPPWKS003", polgro: "Auto-Access", interface: "17" }
-- { profile: "L132", selector: "IDM-IDM-000873", polgro: "Auto-Access", interface: "18" }
-- { profile: "L132", selector: "IDM-IDM-000874", polgro: "Auto-Access", interface: "19" }
-- { profile: "L132", selector: "IDM-IDMPPWKS109", polgro: "Auto-Access", interface: "20" }
-- { profile: "L132", selector: "IDM-IDMPPWKS011", polgro: "Auto-Access", interface: "21" }
+- { int_type: "vpc", profile: "L133-134", selector: "vPC-IDM-IDMDPSQL02", polgro: "vPC-IDM-IDMDPSQL02", interface: "1" }
+- { int_type: "vpc", profile: "L133-134", selector: "vPC-IDM-BAYESIANFIL01", polgro: "vPC-IDM-BAYESIANFIL01", interface: "2" }
+- { int_type: "vpc", profile: "L133-134", selector: "vPC-IDM-IDMPPESX00", polgro: "vPC-IDM-IDMPPESX00", interface: "3" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPADPHPC01", polgro: "vPC-IDM-IPADPHPC01", interface: "1" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-A", polgro: "vPC-IDM-IPAPPHPC01-A", interface: "2" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-1", polgro: "vPC-IDM-IPAPPHPC01-1", interface: "3" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-2", polgro: "vPC-IDM-IPAPPHPC01-2", interface: "4" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-3", polgro: "vPC-IDM-IPAPPHPC01-3", interface: "5" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-4", polgro: "vPC-IDM-IPAPPHPC01-4", interface: "6" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-5", polgro: "vPC-IDM-IPAPPHPC01-5", interface: "7" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-6", polgro: "vPC-IDM-IPAPPHPC01-6", interface: "8" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-7", polgro: "vPC-IDM-IPAPPHPC01-7", interface: "9" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-8", polgro: "vPC-IDM-IPAPPHPC01-8", interface: "10" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-9", polgro: "vPC-IDM-IPAPPHPC01-9", interface: "11" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-10", polgro: "vPC-IDM-IPAPPHPC01-10", interface: "12" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-11", polgro: "vPC-IDM-IPAPPHPC01-11", interface: "13" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-12", polgro: "vPC-IDM-IPAPPHPC01-12", interface: "14" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IDMPPDBS01-A", polgro: "vPC-IDM-IDMPPDBS01-A", interface: "15" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPADPHPC01-1", polgro: "vPC-IDM-IPADPHPC01-1", interface: "17" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPAPPDBS01", polgro: "vPC-IDM-IPAPPDBS01", interface: "18" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-13", polgro: "vPC-IDM-IPAPPHPC01-13", interface: "19" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-14", polgro: "vPC-IDM-IPAPPHPC01-14", interface: "20" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-15", polgro: "vPC-IDM-IPAPPHPC01-15", interface: "21" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-16", polgro: "vPC-IDM-IPAPPHPC01-16", interface: "22" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-17", polgro: "vPC-IDM-IPAPPHPC01-17", interface: "23" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-18", polgro: "vPC-IDM-IPAPPHPC01-18", interface: "24" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-19", polgro: "vPC-IDM-IPAPPHPC01-19", interface: "25" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-20", polgro: "vPC-IDM-IPAPPHPC01-20", interface: "26" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-21", polgro: "vPC-IDM-IPAPPHPC01-21", interface: "27" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-22", polgro: "vPC-IDM-IPAPPHPC01-22", interface: "28" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPAPPHPC01-23", polgro: "vPC-IDM-IPAPPHPC01-23", interface: "29" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IDMPPDBS01-B", polgro: "vPC-IDM-IDMPPDBS01-B", interface: "30" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPAPPCNT01-1", polgro: "vPC-IDM-IPAPPCNT01-1", interface: "32" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPAPPCNT02-1", polgro: "vPC-IDM-IPAPPCNT02-1", interface: "33" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPAPPCLD01", polgro: "vPC-IDM-IPAPPCLD01", interface: "34" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPAPPCLD02", polgro: "vPC-IDM-IPAPPCLD02", interface: "36" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IPAPPCLD03", polgro: "vPC-IDM-IPAPPCLD03", interface: "38" }
+- { int_type: "vpc", profile: "L135-136", selector: "vPC-IDM-IDMPPHYP09", polgro: "vPC-IDM-IDMPPHYP09", interface: "40" }
+- { int_type: "vpc", profile: "L133", selector: "IDM-IDMDPSQL02-ISCSI", polgro: "Auto-Access", interface: "2" }
+- { int_type: "vpc", profile: "L134", selector: "IDM-IDMDPSQL02-ISCSI", polgro: "Auto-Access", interface: "2" }
+- { int_type: "vpc", profile: "L135", selector: "IDM-IDMPPDBS01-A", polgro: "Auto-Access", interface: "16" }
+- { int_type: "vpc", profile: "L136", selector: "IDM-IDMPPDBS01-A", polgro: "Auto-Access", interface: "16" }
+- { int_type: "vpc", profile: "L135", selector: "vPC-IDM-IDMPPDBS01-B", polgro: "Auto-Access", interface: "31" }
+- { int_type: "vpc", profile: "L136", selector: "vPC-IDM-IPAPPCNT01-1", polgro: "Auto-Access", interface: "31" }
+- { int_type: "vpc", profile: "L135", selector: "vPC-IDM-IPAPPCNT02-1", polgro: "Auto-Access", interface: "35" }
+- { int_type: "vpc", profile: "L136", selector: "vPC-IDM-IPAPPCLD01", polgro: "Auto-Access", interface: "35" }
+- { int_type: "vpc", profile: "L135", selector: "vPC-IDM-IPAPPCLD02", polgro: "Auto-Access", interface: "37" }
+- { int_type: "vpc", profile: "L136", selector: "vPC-IDM-IPAPPCLD03", polgro: "Auto-Access", interface: "37" }
+- { int_type: "vpc", profile: "L135", selector: "vPC-IDM-IDMPPHYP09", polgro: "Auto-Access", interface: "39" }
+- { int_type: "vpc", profile: "L136", selector: "vPC-IDM-IDMPPHYP09", polgro: "Auto-Access", interface: "39" }
+- { int_type: "vpc", profile: "L137-138", selector: "vPC-IDM-IPAPPCLD04", polgro: "vPC-IDM-IPAPPCLD04", interface: "1" }
+- { int_type: "vpc", profile: "L137-138", selector: "vPC-IDM-IPAPPCLD05", polgro: "vPC-IDM-IPAPPCLD05", interface: "3" }
+- { int_type: "vpc", profile: "L137-138", selector: "vPC-IDM-IPAPPCLD06", polgro: "vPC-IDM-IPAPPCLD06", interface: "5" }
+- { int_type: "vpc", profile: "L137-138", selector: "vPC-IDM-IDMPPCHA05-A", polgro: "vPC-IDM-IDMPPCHA05-A", interface: "7" }
+- { int_type: "vpc", profile: "L137-138", selector: "vPC-IDM-IDMPPCHA05-A", polgro: "vPC-IDM-IDMPPCHA05-A", interface: "8" }
+- { int_type: "vpc", profile: "L137-138", selector: "vPC-IDM-IDMPPCHA05-B", polgro: "vPC-IDM-IDMPPCHA05-B", interface: "9" }
+- { int_type: "vpc", profile: "L137-138", selector: "vPC-IDM-IDMPPCHA05-B", polgro: "vPC-IDM-IDMPPCHA05-B", interface: "10" }
+- { int_type: "vpc", profile: "L137-138", selector: "vPC-IDM-IDMPPTSS03", polgro: "vPC-IDM-IDMPPTSS03", interface: "11" }
+- { int_type: "vpc", profile: "L137-138", selector: "vPC-IDM-IDMPPHYP00", polgro: "vPC-IDM-IDMPPHYP00", interface: "12" }
+- { int_type: "vpc", profile: "L137-138", selector: "vPC-IDM-IDMPPFIL02", polgro: "vPC-IDM-IDMPPFIL02", interface: "13" }
+- { int_type: "vpc", profile: "L137-138", selector: "vPC-IDM-IDMPPCHA03-A", polgro: "vPC-IDM-IDMPPCHA03-A", interface: "14" }
+- { int_type: "vpc", profile: "L137-138", selector: "vPC-IDM-IDMPPCHA03-A", polgro: "vPC-IDM-IDMPPCHA03-A", interface: "15" }
+- { int_type: "vpc", profile: "L137-138", selector: "vPC-IDM-IDMPPCHA03-B", polgro: "vPC-IDM-IDMPPCHA03-B", interface: "16" }
+- { int_type: "vpc", profile: "L137-138", selector: "vPC-IDM-IDMPPCHA03-B", polgro: "vPC-IDM-IDMPPCHA03-B", interface: "17" }
+- { int_type: "vpc", profile: "L137-138", selector: "vPC-IDM-IDMPPCHA01-A", polgro: "vPC-IDM-IDMPPCHA01-A", interface: "18" }
+- { int_type: "vpc", profile: "L137-138", selector: "vPC-IDM-IDMPPCHA01-A", polgro: "vPC-IDM-IDMPPCHA01-A", interface: "19" }
+- { int_type: "vpc", profile: "L137-138", selector: "vPC-IDM-IDMPPCHA01-B", polgro: "vPC-IDM-IDMPPCHA01-B", interface: "20" }
+- { int_type: "vpc", profile: "L137-138", selector: "vPC-IDM-IDMPPCHA01-B", polgro: "vPC-IDM-IDMPPCHA01-B", interface: "21" }
+- { int_type: "vpc", profile: "L137-138", selector: "vPC-IDM-IDMPPCHA04-A", polgro: "vPC-IDM-IDMPPCHA04-A", interface: "22" }
+- { int_type: "vpc", profile: "L137-138", selector: "vPC-IDM-IDMPPCHA04-A", polgro: "vPC-IDM-IDMPPCHA04-A", interface: "23" }
+- { int_type: "vpc", profile: "L137-138", selector: "vPC-IDM-IDMPPCHA04-B", polgro: "vPC-IDM-IDMPPCHA04-B", interface: "24" }
+- { int_type: "vpc", profile: "L137-138", selector: "vPC-IDM-IDMPPCHA04-B", polgro: "vPC-IDM-IDMPPCHA04-B", interface: "25" }
+- { int_type: "vpc", profile: "L137-138", selector: "vPC-IDM-IDMPPCHA02-A", polgro: "vPC-IDM-IDMPPCHA02-A", interface: "26" }
+- { int_type: "vpc", profile: "L137-138", selector: "vPC-IDM-IDMPPCHA02-A", polgro: "vPC-IDM-IDMPPCHA02-A", interface: "27" }
+- { int_type: "vpc", profile: "L137-138", selector: "vPC-IDM-IDMPPCHA02-B", polgro: "vPC-IDM-IDMPPCHA02-B", interface: "28" }
+- { int_type: "vpc", profile: "L137-138", selector: "vPC-IDM-IDMPPCHA02-B", polgro: "vPC-IDM-IDMPPCHA02-B", interface: "29" }
+- { int_type: "vpc", profile: "L139-140", selector: "vPC-IDM-IDMPPSTR04", polgro: "vPC-IDM-IDMPPSTR04", interface: "7" }
+- { int_type: "vpc", profile: "L139-140", selector: "vPC-IDM-IDMPPSTR04", polgro: "vPC-IDM-IDMPPSTR04", interface: "8" }
+- { int_type: "vpc", profile: "L139-140", selector: "vPC-IDM-IDMPPSTR09", polgro: "vPC-IDM-IDMPPSTR09", interface: "13" }
+- { int_type: "switch_port", profile: "L133", selector: "IDM-IPAPPCLD04", polgro: "Auto-Access", interface: "2" }
+- { int_type: "switch_port", profile: "L134", selector: "IDM-IDMDPSQL02-ISCSI", polgro: "Auto-Access", interface: "4" }
+- { int_type: "switch_port", profile: "L135", selector: "IDM-IDMPPDBS01-A", polgro: "Auto-Access", interface: "6" }
+- { int_type: "switch_port", profile: "L139", selector: "IDM-IDMPPSTR01-A1", polgro: "Auto-Access", interface: "1" }
+- { int_type: "switch_port", profile: "L139", selector: "IDM-IDMPPSTR01-B1", polgro: "Auto-Access", interface: "2" }
+- { int_type: "switch_port", profile: "L140", selector: "IDM-IDMPPSTR01-A2", polgro: "Auto-Access", interface: "1" }
+- { int_type: "switch_port", profile: "L140", selector: "IDM-IDMPPSTR01-B2", polgro: "Auto-Access", interface: "2" }
+- { int_type: "switch_port", profile: "L139", selector: "IDM-IDMPPSTR05-A1", polgro: "Auto-Access", interface: "3" }
+- { int_type: "switch_port", profile: "L139", selector: "IDM-IDMPPSTR05-B1", polgro: "Auto-Access", interface: "4" }
+- { int_type: "switch_port", profile: "L140", selector: "IDM-IDMPPSTR05-A2", polgro: "Auto-Access", interface: "3" }
+- { int_type: "switch_port", profile: "L140", selector: "IDM-IDMPPSTR05-B2", polgro: "Auto-Access", interface: "4" }
+- { int_type: "switch_port", profile: "L139", selector: "IDM-IDMPPSTR04-A1", polgro: "Auto-Access", interface: "5" }
+- { int_type: "switch_port", profile: "L139", selector: "IDM-IDMPPSTR04-B1", polgro: "Auto-Access", interface: "6" }
+- { int_type: "switch_port", profile: "L140", selector: "IDM-IDMPPSTR04-A2", polgro: "Auto-Access", interface: "5" }
+- { int_type: "switch_port", profile: "L140", selector: "IDM-IDMPPSTR04-B2", polgro: "Auto-Access", interface: "6" }
+- { int_type: "switch_port", profile: "L139", selector: "IDM-IDMPPSTR10-A1", polgro: "Auto-Access", interface: "9" }
+- { int_type: "switch_port", profile: "L139", selector: "IDM-IDMPPSTR10-B1", polgro: "Auto-Access", interface: "10" }
+- { int_type: "switch_port", profile: "L140", selector: "IDM-IDMPPSTR10-A2", polgro: "Auto-Access", interface: "9" }
+- { int_type: "switch_port", profile: "L140", selector: "IDM-IDMPPSTR10-B2", polgro: "Auto-Access", interface: "10" }
+- { int_type: "switch_port", profile: "L139", selector: "IDM-IDMPPSTR07-A1", polgro: "Auto-Access", interface: "11" }
+- { int_type: "switch_port", profile: "L139", selector: "IDM-IDMPPSTR07-B1", polgro: "Auto-Access", interface: "12" }
+- { int_type: "switch_port", profile: "L140", selector: "IDM-IDMPPSTR07-A2", polgro: "Auto-Access", interface: "11" }
+- { int_type: "switch_port", profile: "L140", selector: "IDM-IDMPPSTR07-B2", polgro: "Auto-Access", interface: "12" }
+- { int_type: "switch_port", profile: "L131", selector: "IDM-Bayesianhpc02", polgro: "Auto-Access", interface: "1" }
+- { int_type: "switch_port", profile: "L131", selector: "IDM-Bayesianhpc-100", polgro: "Auto-Access", interface: "2" }
+- { int_type: "switch_port", profile: "L131", selector: "IDM-Bayesianhpc-101", polgro: "Auto-Access", interface: "3" }
+- { int_type: "switch_port", profile: "L131", selector: "IDM-Bayesianhpc-102", polgro: "Auto-Access", interface: "4" }
+- { int_type: "switch_port", profile: "L131", selector: "IDM-Bayesianhpc-104", polgro: "Auto-Access", interface: "5" }
+- { int_type: "switch_port", profile: "L131", selector: "IDM-Bayesianhpc-105", polgro: "Auto-Access", interface: "6" }
+- { int_type: "switch_port", profile: "L131", selector: "IDM-Bayesianhpc-106", polgro: "Auto-Access", interface: "7" }
+- { int_type: "switch_port", profile: "L131", selector: "IDM-Bayesianhpc-107", polgro: "Auto-Access", interface: "8" }
+- { int_type: "switch_port", profile: "L131", selector: "IDM-Bayesianhpc-108", polgro: "Auto-Access", interface: "9" }
+- { int_type: "switch_port", profile: "L131", selector: "IDM-Bayesianhpc-109", polgro: "Auto-Access", interface: "10" }
+- { int_type: "switch_port", profile: "L131", selector: "IDM-Bayesianhpc-111", polgro: "Auto-Access", interface: "11" }
+- { int_type: "switch_port", profile: "L131", selector: "IDM-Bayesianhpc-112", polgro: "Auto-Access", interface: "12" }
+- { int_type: "switch_port", profile: "L131", selector: "IDM-Bayesianhpc-113", polgro: "Auto-Access", interface: "13" }
+- { int_type: "switch_port", profile: "L131", selector: "IDM-Bayesianhpc-114", polgro: "Auto-Access", interface: "14" }
+- { int_type: "switch_port", profile: "L131", selector: "IDM-Bayesianhpc-115", polgro: "Auto-Access", interface: "15" }
+- { int_type: "switch_port", profile: "L131", selector: "IDM-Bayesianhpc-116", polgro: "Auto-Access", interface: "16" }
+- { int_type: "switch_port", profile: "L131", selector: "IDM-Bayesianhpc-117", polgro: "Auto-Access", interface: "17" }
+- { int_type: "switch_port", profile: "L131", selector: "IDM-Bayesianhpc-118", polgro: "Auto-Access", interface: "18" }
+- { int_type: "switch_port", profile: "L131", selector: "IDM-Bayesianhpc-119", polgro: "Auto-Access", interface: "19" }
+- { int_type: "switch_port", profile: "L131", selector: "IDM-Bayesianhpc-120", polgro: "Auto-Access", interface: "20" }
+- { int_type: "switch_port", profile: "L131", selector: "IDM-Bayesianhpc-121", polgro: "Auto-Access", interface: "21" }
+- { int_type: "switch_port", profile: "L131", selector: "IDM-Bayesianhpc-122", polgro: "Auto-Access", interface: "22" }
+- { int_type: "switch_port", profile: "L132", selector: "IDM-IPAPPHYP01", polgro: "Auto-Access", interface: "1" }
+- { int_type: "switch_port", profile: "L132", selector: "IDM-IPAPPHYP02", polgro: "Auto-Access", interface: "2" }
+- { int_type: "switch_port", profile: "L132", selector: "IDM-IPAPPHYP03", polgro: "Auto-Access", interface: "3" } 
+- { int_type: "switch_port", profile: "L132", selector: "IDM-IDMPPWKS022", polgro: "Auto-Access", interface: "4" }
+- { int_type: "switch_port", profile: "L132", selector: "IDM-IDMPPWKS037", polgro: "Auto-Access", interface: "5" }
+- { int_type: "switch_port", profile: "L132", selector: "IDM-IDMPPWKS091", polgro: "Auto-Access", interface: "6" }
+- { int_type: "switch_port", profile: "L132", selector: "IDM-IDM-000642", polgro: "Auto-Access", interface: "7" }
+- { int_type: "switch_port", profile: "L132", selector: "IDM-IDMPPWKS098", polgro: "Auto-Access", interface: "8" }
+- { int_type: "switch_port", profile: "L132", selector: "IDM-IDMPPWKS001", polgro: "Auto-Access", interface: "9" }
+- { int_type: "switch_port", profile: "L132", selector: "IDM-IDMPPWKS062", polgro: "Auto-Access", interface: "10" }
+- { int_type: "switch_port", profile: "L132", selector: "IDM-IPAPPWKS003", polgro: "Auto-Access", interface: "11" }
+- { int_type: "switch_port", profile: "L132", selector: "IDM-IDMDPWKS036", polgro: "Auto-Access", interface: "12" }
+- { int_type: "switch_port", profile: "L132", selector: "IDM-IPAPPWKS03", polgro: "Auto-Access", interface: "13" }
+- { int_type: "switch_port", profile: "L132", selector: "IDM-IPAPPWKS001", polgro: "Auto-Access", interface: "14" }
+- { int_type: "switch_port", profile: "L132", selector: "IDM-IDMPPWKS008", polgro: "Auto-Access", interface: "15" }
+- { int_type: "switch_port", profile: "L131-132", selector: "IDM-IDMPPBAK02-1", polgro: "Auto-Access", interface: "23" }
+- { int_type: "switch_port", profile: "L131", selector: "IDM-IDMPPBAK02-3", polgro: "Auto-Access", interface: "24" }
+- { int_type: "switch_port", profile: "L132", selector: "IDM-IDMPPBAK02-4", polgro: "Auto-Access", interface: "24" }
+- { int_type: "switch_port", profile: "L131-132", selector: "IDM-IDMPPOPS01-1", polgro: "Auto-Access", interface: "25" }
+- { int_type: "switch_port", profile: "L132", selector: "IDM-IDMPPWKS023", polgro: "Auto-Access", interface: "16" }
+- { int_type: "switch_port", profile: "L132", selector: "IDM-IDMPPWKS003", polgro: "Auto-Access", interface: "17" }
+- { int_type: "switch_port", profile: "L132", selector: "IDM-IDM-000873", polgro: "Auto-Access", interface: "18" }
+- { int_type: "switch_port", profile: "L132", selector: "IDM-IDM-000874", polgro: "Auto-Access", interface: "19" }
+- { int_type: "switch_port", profile: "L132", selector: "IDM-IDMPPWKS109", polgro: "Auto-Access", interface: "20" }
+- { int_type: "switch_port", profile: "L132", selector: "IDM-IDMPPWKS011", polgro: "Auto-Access", interface: "21" }
 
 leaf_profile_name:
 - L131

@@ -41,7 +41,7 @@
       interface_profile: "{{ item.profile }}"
       access_port_selector: "{{ item.selector }}"
       policy_group: "{{ item.polgro }}"
-      interface_type: vpc
+      interface_type: "{{ item.int_type }}"
     loop:
       "{{ int_profile }}"
 
