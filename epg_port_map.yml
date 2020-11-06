@@ -45,7 +45,7 @@
     loop:
       "{{ int_profile }}"
 
-  - name: Associate an Interface Access Port Selector to an Interface Policy Leaf Profile with a Policy Group
+  - name: Associate port block to leaf interface profile
     cisco.aci.aci_access_port_block_to_access_port:
       <<: *login
       interface_profile: "{{ item.profile }}"
