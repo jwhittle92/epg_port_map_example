@@ -1,6 +1,6 @@
 [apic]
-198.18.133.200
+sandboxapicdc.cisco.com
 
 [apic:vars]
 username="admin"
-password="C1sco12345"
+password="ciscopsdt"
